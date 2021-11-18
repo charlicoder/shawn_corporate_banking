@@ -1,0 +1,25 @@
+{% extends "layouts/base.html" %}
+{% load static %}
+
+{% block body %}
+    <main>
+        <div id="wrapper">            
+
+            <div class="content-wrapper">
+
+                <div class="content custom-scrollbar">
+
+                    <div class="page-layout blank p-6">
+
+                        <h2>Home page</h2>
+                        <a class='btn btn-default' href="{% url 'person:list' %}">View Person List</a>
+
+                    </div>
+
+                </div>
+            </div>
+            
+
+        </div>
+    </main>
+{% endblock body %}
